@@ -1,0 +1,838 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+body {
+    font-family: "Karla", sans-serif;
+    font-family: "Lora", serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+
+/* header area css start */
+.header-area {
+    padding-top: 13px;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.logo-area a img {
+    width: 100%;
+}
+
+.header-contact-bg {
+    background: #4F7E99;
+    padding: 15px 0;
+}
+ 
+
+.header-contact {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-contact a {
+    color: #F2F5F8;
+    font-family: Karla;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header-contact a i {
+    margin-right: 8px;
+}
+
+.menu-area {
+    padding: 0 80px;
+    
+}
+
+.menu-area nav ul li {
+    position: relative;
+}
+
+.menu-area nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-area nav ul li a {
+    color: #293238;
+    font-family: Karla;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.menu-area .dropdown {
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+.menu-area nav ul li:hover > .dropdown {
+    display: block;
+    transition: 1s;
+    z-index: 111;
+}
+
+.menu-area .dropdown2 {
+    left: 100%;
+    top: 0;
+}
+
+.menu-area .dropdown ul {
+    display: block;
+}
+
+.menu-area .dropdown ul li {
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+/* header area css end */
+
+
+/* hero area css start */
+.hero-area {
+    margin-top: 6px;
+}
+
+.hero-desc-left-bg {
+    background: #27485C;
+    display: flex;
+}
+
+.hero-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 300px;
+}
+
+.hero-desc h2 {
+    color: #F2F5F8;
+    font-family: Lora;
+    font-size: 64px;
+    font-weight: 500;
+}
+
+.hero-desc h4 {
+    color: #F2F5F8;
+    font-family: Lora;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.hero-desc p {
+    color: #F2F5F8;
+    font-family: Karla;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 34px;
+}
+
+.hero-desc a, .help-us-content a, .adipiscing-nullam-desc a {
+    display: flex;
+    width: 199px;
+    height: 54px;
+    padding: 19px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border: 1px solid #4F7E99;
+    background: #F2ECE7;
+    color: #4F7E99;
+    font-family: Karla;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.hero-image img {
+    width: 100%;
+}
+/* hero area css end */
+
+
+/* All Law area css start */
+.all-law-area {
+    padding-top: 74px;
+    padding-bottom: 163px;
+}
+
+.family-law-side h2, .criminal-law-side h2 {
+    color: #293238;
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.single-family-law, .single-criminal-law {
+    background: #E0E9EF;
+    padding: 8px 10px;
+    width: 48%;
+}
+
+.law-box {
+    border: 1px solid #C8D0D8;
+    padding: 20px 0;
+}
+
+.law-box h4 {
+    color: #293238;
+    text-align: center;
+    font-family: Lora;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.law-box p {
+    color: #293238;
+    text-align: center;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.law-box a {
+    color: #4F7E99;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+
+.family-law, .criminal-law {
+    margin-top: 40px;
+}
+
+.mart {
+    margin-top: 14px;
+}
+
+.padleft {
+    padding-left: 70px;
+}
+
+.padright {
+    padding-right: 70px;
+}
+/* All Law area css end */
+
+
+/* Cherish Om Law area css start */
+.cherish-law-area {
+    background: #EFE7DF;
+    padding-top: 160px;
+    padding-bottom: 123px;
+}
+
+.cherish-law-desc h2 {
+    color: #293238;
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.cherish-law-image img {
+	width: 100%;
+}
+
+.cherish-law-desc p {
+    color: #293238;
+    font-family: Karla;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 20px;
+    max-width: 623px;
+    margin-bottom: 34px;
+}
+
+.cherish-law-desc a {
+    display: flex;
+    width: 199px;
+    height: 48px;
+    padding: 15px 34px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    text-decoration: none;
+    color: #4F7E99;
+    font-family: Karla;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #4F7E99;
+}
+
+.cherish-law-image {
+    position: absolute;
+    margin-top: -48%;
+}
+/* Cherish Om Law area css end */
+
+
+/* let us help area css start */
+.help-us-area {
+    padding-top: 192px;
+    padding-bottom: 63px;
+}
+
+.area-bg {
+    background: #366078;
+}
+
+.help-us-content {
+    padding-top: 66px;
+    padding-bottom: 39px;
+    padding-left: 199px;
+    padding-right: 199px;
+}
+
+.help-us-content h2 {
+    color: #F2F5F8;
+    text-align: center;
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.help-us-content p {
+    color: #E8EAEC;
+    text-align: center;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 34px;
+}
+
+#btn-center {
+    width: 202px;
+    margin: auto;
+}
+/* let us help area css end */
+
+
+/* clients say area css start */
+.clients-say-area {
+    padding-top: 83px;
+    padding-bottom: 85px;
+}
+
+.area-title h2 {
+    color: #293238;
+    text-align: center;
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.single-client-post {
+    max-width: 683px;
+    margin: auto;
+}
+
+.single-client-post p {
+    
+    color: #293238;
+    text-align: center;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto;
+    margin-top: 51px;
+    margin-bottom: 20px;
+}
+
+.single-client-post span {
+    color: #293238;
+    font-family: Karla;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.owl-prev {
+	position: absolute;
+	top: 36%;
+	left: 16%;
+}
+
+.owl-next {
+	position: absolute;
+	right: 16%;
+	top: 37%;
+}
+
+.owl-prev i, .owl-next i {
+    color: #7298AD;
+    font-size: 29px;
+}
+
+.owl-next i:hover, .owl-prev i:hover {
+    color: #B9CBD6;
+}
+/* clients say area css end */
+
+
+/* contact area css start */
+.contact-area {
+    padding: 30px 0;
+    background: #EEE5DC;
+}
+
+.contact-phone i, .contact-mail i, .contact-location i {
+    width: 61px;
+    height: 61px;
+    background: #4F7E99;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 61px;
+    font-size: 25px;
+    color: #F3ECE5;
+}
+
+.contact-mail {
+    border-right: 1px solid #DFD9D3;
+    border-left: 1px solid #DFD9D3;
+    padding: 0 84px;
+}
+
+.contact-phone a, .contact-mail a {
+    color: #4F7E99;
+    font-family: "Inria Sans";
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 14px;
+    text-decoration: none;
+}
+
+.contact-location p {
+    color: #4F7E99;
+    font-family: "Inria Sans";
+    font-size: 28px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.contact-phone, .contact-mail, .contact-location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* contact area css end */
+
+
+/* Description area css start */
+.owner-picture img {
+    width: 100%;
+}
+
+.owner-desc {
+    background: #E3EAF0;
+}
+
+.owner-text {
+    padding-left: 69px;
+    padding-right: 78px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.owner-text span {
+    margin: 40px 0;
+    display: block;
+}
+
+.owner-text p {
+    color: #293238;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Description area css end */
+
+
+/* adipiscing Nullam area css start */
+.adipiscing-nullam-area {
+    padding-top: 83px;
+    padding-bottom: 70px;
+}
+
+.adipiscing-nullam-desc h2 {
+    max-width: 1076px;
+    color: #372F2A;
+    font-family: Lora;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.adipiscing-nullam-desc p {
+    max-width: 1040px;
+    color: #372F2A;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 34px;
+}
+
+#nullam{
+    background: #4F7E99;
+    color: #ffffff;
+}
+/* adipiscing Nullam area css end */
+
+
+/* get in touch area css start */
+.part-bg {
+    background: url(images/contact-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.get-touch-overlay {
+    background: rgba(54, 96, 120, 0.90);
+    padding-left: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 56px;
+}
+
+.phone-contact i, .email-contact i, .location-contact i {
+    width: 41px;
+    height: 41px;
+    background: #4F7E99;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 41px;
+    font-size: 17px;
+    color: #F3ECE5;
+}
+
+.phone-contact a, .email-contact a, .location-contact a {
+    color: #F2F5F8;
+    font-family: "Inria Sans";
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.email-contact {
+    margin: 26px 0;
+}
+
+.location-contact {
+	margin-bottom: 75px;
+}
+
+.form-bg {
+    background: #F3EFEC;
+    padding-top: 58px;
+    padding-bottom: 56px;
+}
+
+.contact-form form label {
+    /* display: block; */
+}
+
+.field-group input {
+	width: 100%;
+}
+
+.field-group {
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+}
+
+.field-group label {
+    color: #293238;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.field-group input {
+    color: #A6A6A6;
+    font-family: Karla;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 6px 0 6px 11px;
+}
+
+.field-group input:focus {
+    outline: none;
+}
+
+.mart-26 {
+    margin-top: 26px;
+    margin-bottom: 20px;
+}
+
+.message-box {
+    margin-left: 8%;
+    
+}
+
+.message-box textarea {
+    width: 95.5%;
+    padding: 10px;
+    color: #A6A6A6;
+    font-family: Karla;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.message-box textarea:focus {
+    outline: none;
+}
+
+.message-box label {
+    display: block;
+    color: #293238;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+form input[type=button] {
+    margin-left: 8%;
+    display: flex;
+    width: 199px;
+    height: 48px;
+    padding: 15px 34px;
+    justify-content: center;
+    align-items: center;
+    color: #F2F5F8;
+    font-family: Karla;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #4F7E99;
+    border: none;
+    margin-top: 26px;
+}
+/* get in touch area css end */
+
+
+/* footer area css start */
+.footer-area {
+    padding-top: 81px;
+    padding-bottom: 59px;
+    background: #10222C;
+}
+
+.first-border {
+    border-right: 1px solid #192E39;
+    
+}
+
+.footer-part-one p {
+    color: #D2D2D2;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    margin: 28px 0;
+}
+
+.social-icon {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-icon li {
+    display: inline-block;
+}
+
+.social-icon li a {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #F6F2F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.social-icon li a i {
+    color: #4F7E99;
+}
+
+.social-icon li:nth-child(2) {
+    margin: 0 20px;
+}
+
+.footer-part-two {
+    padding-left: 30px;
+}
+
+.footer-part-two h2 {
+    color: #F6F2F0;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+    margin-bottom: 19px;
+}
+
+.first-box, .second-box {
+    width: 50%;
+}
+
+.second-box {
+	padding-left: 20px;
+}
+
+.first-box ul, .second-box ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.first-box ul li, .second-box ul li {
+    margin: 11px 0;
+}
+
+.first-box ul li a, .second-box ul li a {
+    color: #D2D2D2;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.footer-part-three h2 {
+    color: #F6F2F0;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.footer-part-three ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-part-three ul li {
+    margin: 11px 0;
+}
+
+.footer-part-three ul li a {
+    color: #D2D2D2;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    text-decoration: none;
+}
+
+.bdrl {
+    border-right: 1px solid #192E39;
+    border-left: 1px solid #192E39;
+    padding-left: 50px;
+}
+
+.footer-part-four {
+    padding-left: 30px;
+}
+
+.footer-part-four h2 {
+    color: #F6F2F0;
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.18px;
+    text-transform: capitalize;
+}
+
+.footer-part-four ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-part-four ul li {
+    margin-top: 18px;
+}
+
+.footer-part-four ul li a {
+    color: #D2D2D2;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.16px;
+    text-decoration: none;
+}
+
+.footer-part-four ul li a i {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #F6F2F0;
+    text-align: center;
+    line-height: 28px;
+    font-size: 15px;
+    color: #4F7E99;
+    margin-right: 18px;
+}
+/* footer area css end */

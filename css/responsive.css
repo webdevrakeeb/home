@@ -1,0 +1,489 @@
+@media screen and (min-width:992px) and (max-width:1070px) {
+    .header-contact a {
+        font-size: 13px;
+    }
+
+    .hero-desc {
+        padding-left: 30px;
+    }
+
+    .get-touch-overlay {
+        padding-left: 78px;
+    }
+
+
+
+
+}
+
+
+@media screen and (min-width:768px) and (max-width:991px){
+    .hero-desc {
+        padding: 50px 30px;
+    }
+
+    .header-contact a {
+        font-size: 10px;
+    }
+
+    .menu-area {
+        padding: 0 0px;
+    }
+
+    .pad-left {
+        padding-left: 0 !important;
+    }
+
+    .footer-part-four {
+        padding-left: 0;
+        margin-top: 20px;
+        border-right: none;
+    }
+
+    .border-tab {
+        border-right: 1px solid #192E39;
+    }
+
+    .first-border {
+        margin-top: 30px;
+        border-right: none;
+    }
+
+    .footer-part-two {
+        padding-left: 0;
+    }
+
+    .bdrl {
+        padding-left: 25px;
+        border-right: none;
+    }
+
+    .get-touch-overlay {
+        padding-left: 200px;
+        padding-bottom: 0px;
+        padding-top: 55px;
+    }
+
+    .adipiscing-nullam-desc h2 {
+        font-size: 30px;
+    }
+
+    .adipiscing-nullam-desc p {
+        font-size: 14px;
+    }
+
+    .owner-desc {
+        padding: 50px 0;
+    }
+
+    .contact-mail {
+        padding: 0 0px;
+    }
+
+    .contact-phone {
+        width: 50%;
+    }
+
+    .contact-mail {
+        width: 50%;
+    }
+
+    .contact-location {
+        width: 50%;
+    }
+
+    .contact-mail {
+        border-right: 0;
+    }
+
+    .contact-location {
+        margin-top: 30px;
+        border-right: 1px solid #DFD9D3;
+    }
+
+    .clients-say-area {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+
+    .single-client-post p {
+        font-size: 14px;
+    }
+
+    .owl-prev {
+        left: -30px;
+    }
+
+    .owl-next {
+        right: -26px;
+    }
+
+    .owl-prev i, .owl-next i {
+        font-size: 20px;
+    }
+
+    .cherish-law-image {
+        position: inherit;
+        margin-top: 0;
+    }
+
+    .cherish-law-area {
+        padding-top: 55px;
+        padding-bottom: 40px;
+    }
+
+    .help-us-area {
+        padding-top: 55px;
+        padding-bottom: 50px;
+    }
+
+    .help-us-content {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .cherish-law-desc h2 {
+        font-size: 40px;
+    }
+
+    .cherish-law-desc p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .cherish-law-desc a {
+        width: 155px;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .padleft {
+        padding-left: 15px;
+    }
+
+    .padright {
+        padding-right: 15px;
+    }
+
+    .all-law-area {
+        padding-top: 50px;
+        padding-bottom: 60px;
+    }
+
+    .family-law, .criminal-law {
+        margin-top: 15px;
+    }
+
+    .criminal-law-side {
+        margin-top: 30px;
+    }
+
+    .hero-desc h2 {
+        font-size: 55px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .menu-area {
+        display: none;
+    }
+
+    .header-contact-bg {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        display: block;
+        text-align: right;
+    }
+
+    .mobile-menu-icon i {
+        font-size: 50px;
+        opacity: 0.5;
+        cursor: pointer;
+    }
+
+    .menu-area nav ul {
+        display: block;
+    }
+
+    .menu-area nav {
+        position: absolute;
+        width: 200% !important;
+        left: -100%;
+        top: 150%;
+        padding-left: 20px;
+        z-index: 2222;
+        background: #DFD9D3;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .menu-area nav ul li {
+        width: 180px;
+    }
+
+    .menu-area nav ul li:hover {
+        background: #FFFFFF;
+    }
+
+    .menu-area .dropdown {
+        position: absolute;
+        left: 80%;
+        top: 0;
+        width: 100%;
+        background: #DFD9D3;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .hero-desc {
+        padding: 50px 15px;
+    }
+
+    .hero-desc h2 {
+        font-size: 45px;
+    }
+
+    .hero-desc h4 {
+        font-size: 27px;
+        margin: 10px 0 0 0;
+    }
+
+    .hero-desc p {
+        font-size: 15px;
+    }
+
+    .bdrl {
+        border-right: 0;
+        border-left: 0;
+        padding-left: 15px;
+        margin: 30px 0;
+    }
+
+    .footer-part-four {
+        padding-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .footer-part-two {
+        padding-left: 0;
+    }
+
+    .field-group {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contact-form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .message-box {
+        margin-left: 0;
+        
+    }
+
+    .message-box textarea {
+        width: 100%;
+    }
+
+    form input[type="button"] {
+        margin-left: 0;
+        width: 160px;
+        padding: 15px 0;
+        font-size: 18px;
+        margin-top: 18px;
+    }
+
+    .get-touch-overlay {
+        padding-left: 15px;
+        padding-bottom: 0px;
+        padding-top: 30px;
+    }
+
+    .location-contact {
+        margin-bottom: 40px;
+    }
+
+    .adipiscing-nullam-desc h2 {
+        font-size: 22px;
+    }
+
+    .adipiscing-nullam-area {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .adipiscing-nullam-desc p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .hero-desc a, .help-us-content a, .adipiscing-nullam-desc a {
+        width: 150px;
+        padding: 19px 0;
+        font-size: 15px;
+    }
+
+    .owner-text {
+        padding: 30px 15px;
+        text-align: justify;
+    }
+
+    .contact-mail {
+        border: none;
+        padding: 0px;
+    }
+
+    .contact-phone, .contact-mail, .contact-location {
+        display: block;
+    }
+    
+    .contact-phone i, .contact-mail i, .contact-location i {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .contact-phone a, .contact-mail a {
+        font-size: 18px;
+    }
+
+    .contact-location {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-location p {
+        font-size: 16px;
+    }
+
+    .contact-mail {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .clients-say-area {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .single-client-post p {
+        font-size: 14px;
+        margin-top: 18px;
+        margin-bottom: 7px;
+        text-align: justify;
+        width: 90%;
+    }
+
+    .owl-prev {
+        left: -10px;
+    }
+
+    .owl-prev i, .owl-next i {
+        font-size: 20px;
+    }
+
+    .owl-next {
+        position: absolute;
+        right: -10px;
+        top: 37%;
+    }
+
+    .help-us-content {
+        padding: 25px 0;
+    }
+
+    #btn-center {
+        width: 150px;
+        margin: auto;
+    }
+
+    .cherish-law-image {
+        position: initial;
+        margin-top: 0;
+    }
+
+    .cherish-law-area {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+
+    .help-us-area {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .cherish-law-desc h2 {
+        font-size: 35px;
+    }
+
+    .cherish-law-desc p {
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .cherish-law-desc a {
+        width: 150px;
+        padding: 15px 0;
+        font-size: 16px;
+    }
+
+    .cherish-law-desc {
+        margin-top: 30px;
+    }
+
+    .area-title h2 {
+        font-size: 29px;
+    }
+
+    .all-law-area {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+
+    .padright {
+        padding-right: 15px;
+    }
+
+    .padleft {
+        padding-left: 15px;
+    }
+
+    .family-law, .criminal-law {
+        margin-top: 10px;
+    }
+
+    .single-family-law, .single-criminal-law {
+        width: 100%;
+    }
+
+    .criminal-law-side {
+        margin-top: 30px;
+    }
+
+    
+}
+
